@@ -1,0 +1,18 @@
+{
+  "python.pythonPath": "/home/fatima/feeling_Project/backend/venv/bin/python",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  },
+  "python.analysis.extraPaths": [
+    "/home/fatima/feeling_Project/backend",
+    "/home/fatima/feeling_Project/backend/core",
+    "/home/fatima/feeling_Project/backend/venv/lib/python3.10/site-packages"  // Chemin crucial
+  ],
+  "python.autoComplete.extraPaths": [
+    "/home/fatima/feeling_Project/backend",
+    "/home/fatima/feeling_Project/backend/venv/lib/python3.10/site-packages"
+  ],
+  "python.analysis.exclude": ["**/migrations"],
+  "python.analysis.diagnosticMode": "workspace",
+  "python.languageServer": "Pylance"
+}
